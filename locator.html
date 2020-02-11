@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>Kleenex Beer</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div id="siteContainer">
+		<h1 class="hidden"> Beer Company</h1>
+		<header id="mainHeader">
+			<div id="logo">
+				<img src="images/kleenex_beer_logo.jpg" width="200" alt="logo">
+			</div>
+			<nav class="mainNav">
+				<h2 class="hidden"> Main Navigation</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="ingredients.html">Ingredients</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="history.html">history</a></li>
+					<li class="selected"><a href="#">Locator</a></li>
+				</ul>
+				
+			</nav>
+			
+		</header>
+
+
+
+		<section id="contactus"><h2 class="hidden">Contact Form</h2>
+			<section class="contactform">
+				<h3 id="text"> We'd like to hear from you</h3>
+					<!-- <p id="informationtext"> Fill up the details below and one of our officials will contact you soon.</p>
+ -->
+					<form class="contactfoorm" action="form.php" method="post">
+						<label for="name">Name: (required)</label>
+						<input type="text" name="Fullname" required id="name" size="40">
+
+						<label for="number"> Contact Number: (required)</label>
+						<input type="tel"  required id="number" size="40">
+						
+
+						<label for="email"> E-mail: (will not be published)</label>
+						<input type="tel" required id="email" size="40">
+
+						<label for="comments">Comments: </label>
+						<textarea name="comments" id="comments" required cols="50" rows="10"></textarea>
+
+						<input type="Submit" id="submit" value="Submit">
+					</form>
+
+					<section id="map"><h2 class="hidden">Google Map</h2>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186905.5356374399!2d-81.38870649378268!3d42.948795592401844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef20ea88d9b0b%3A0x28c7d7699a056b95!2sLondon%2C%20ON!5e0!3m2!1sen!2sca!4v1581365501947!5m2!1sen!2sca" width="600" height="450"  style="border:0;" allowfullscreen=""></iframe>
+				</section>
+				
+			</section>
+		</section>
+		<!-- <section class="contactbg">
+				<img src="images/contact_bg.png" alt="beer_main_image" width="960" height="500">
+				
+			</section> -->
+		</div>
+
+		<footer id="mainFooter">
+            <nav class="footerNav">
+                <h2 class="hidden">Footer Nav</h2>  
+                <ul>
+               <li><a href="index.html">Home</a></li>
+					<li><a href="ingredients.html">Ingredients</a></li> 
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="history.html">history</a></li>
+					<li class="selected"><a href="#">Locator</a></li>
+               </ul>
+            </nav><!--end footerNav-->
+
+
+        <div class="socialMedia">
+        <h3 class="hidden">Social Media Links</h3>
+        <ul id="iconNav">
+            <li id="facebook">
+                <a href="http://www.facebook.com">
+                    <img src="images/facebook.svg" alt="facebook">
+                </a>
+            <li id="twitter">
+                <a href="http://www.twitter.com">
+                    <img src="images/twitter.svg" alt="facebook">
+                </a>
+            </li>
+            <li id="youtube">
+                <a href="http://www.youtube.com">
+                    <img src="images/youtube.svg" alt="facebook">
+                </a>
+            </li>
+        </ul>
+    
+        
+
+
+             <!-- <div id="copyRight"><p>@_affordyourdreams 2019</p></div> -->
+              <div id="copyRight">
+                <p>@Kleenex_beer_2020</p>
+              </div><!--end Copyright-->
+         </div>   
+        </footer><!--end mainFooter-->
+   
+<script src="js/main.js"></script>    
+</body>
+</html>
